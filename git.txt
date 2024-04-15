@@ -1,4 +1,5 @@
 git:
+	https://confluence.atlassian.com/display/STASH029/Basic+Git+commands
 
 version control: track our code changes
 
@@ -18,6 +19,7 @@ git push -u origin master
 git branching
 
 git branch
+	git switch -c ''(will  create and switch)
 git checkout -b (to switch bw branches), git switch
 git diff (shows diff btw changes made)
 git merge
