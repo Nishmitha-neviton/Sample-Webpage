@@ -5,7 +5,12 @@ version control: track our code changes
 git clone
 git status
 git add
+	git add .
+	git restore --staged file.txt(remove from stage)
+git log(show all previous commits)
+	to change the previous commit text, git commit -m "edit" --amend
 git commit -m 
+	git reset(to undo commits that are not yt pushed)
 git push
 git remote add origin
 git push -u origin master
@@ -13,7 +18,7 @@ git push -u origin master
 git branching
 
 git branch
-git checkout -b (to switch bw branches)
+git checkout -b (to switch bw branches), git switch
 git diff (shows diff btw changes made)
 git merge
 
